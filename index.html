@@ -755,6 +755,8 @@
     .reviews-header { flex-direction: column; align-items: flex-start; }
 
     footer { flex-direction: column; text-align: center; }
+
+    .hire-grid { grid-template-columns: 1fr !important; }
   }
 </style>
 </head>
@@ -860,37 +862,37 @@
     <div class="service-card">
       <div class="service-num">02</div>
       <div class="service-title">Clutch &amp; Gearbox</div>
-      <div class="service-desc">Clutch &amp; gearbox specialists — our signage says it all. All makes and models, diagnosed and repaired fast.</div>
+      <div class="service-desc">One of SE London's leading clutch specialists. All makes and models. We explore repair options before recommending replacement — the goal is getting you back on the road, not upselling.</div>
     </div>
     <div class="service-card">
       <div class="service-num">03</div>
       <div class="service-title">Tyres &amp; Batteries</div>
-      <div class="service-desc">New and part-worn tyres fitted. Battery supply and fitting. All tyre sizes in stock.</div>
+      <div class="service-desc">New and part-worn tyres fitted. Battery supply and fitting. One of the largest selections of tyres and exhausts in South East London.</div>
     </div>
     <div class="service-card">
       <div class="service-num">04</div>
       <div class="service-title">Wheel Balancing &amp; Tracking</div>
-      <div class="service-desc">Precision wheel balancing and 4-wheel alignment tracking to improve handling and extend tyre life.</div>
+      <div class="service-desc">Precision wheel balancing and 4-wheel alignment tracking to improve handling, reduce tyre wear and pass your MOT.</div>
     </div>
     <div class="service-card">
       <div class="service-num">05</div>
-      <div class="service-title">Brakes &amp; Exhausts</div>
-      <div class="service-desc">Full brake inspection and replacement. Exhaust repairs and supply-and-fit across all vehicle types.</div>
+      <div class="service-title">Exhausts &amp; Catalytic Converters</div>
+      <div class="service-desc">Large range of exhausts from brands including Bosal, Timax and Walkers. 1–2 year or lifetime guarantee depending on system. Catalytic converters for MOT emissions failures.</div>
     </div>
     <div class="service-card">
       <div class="service-num">06</div>
       <div class="service-title">MOT Preparation</div>
-      <div class="service-desc">From £50. We'll get your vehicle roadworthy and ready. Discounted when combined with a full service.</div>
+      <div class="service-desc">From £50. Discounted when combined with a full service. Failed on emissions? Our catalytic converter fitting gets you through.</div>
     </div>
     <div class="service-card">
       <div class="service-num">07</div>
-      <div class="service-title">Van &amp; Car Hire</div>
-      <div class="service-desc">Self-drive van and car hire for domestic and commercial customers. Short and long-term available.</div>
+      <div class="service-title">Van Hire</div>
+      <div class="service-desc">Self-drive van hire from £80/day · £180 weekend · £500/week. Luton vans and standard vans available. Ideal for moves and business use.</div>
     </div>
     <div class="service-card">
       <div class="service-num">08</div>
-      <div class="service-title">Minibus Hire</div>
-      <div class="service-desc">Self-drive minibus rental for family outings, events, and business trips across South East London.</div>
+      <div class="service-title">Car &amp; Minibus Hire</div>
+      <div class="service-desc">Manual and automatic cars for hire. Self-drive minibus for family outings and events. Call for a quote. Age 25–70, full UK licence required.</div>
     </div>
   </div>
 </section>
@@ -913,9 +915,53 @@
     <div class="price-desc">Includes parts and labour. Brakes, tyres, wipers & bulbs extra if needed.</div>
   </div>
   <div class="price-card">
-    <div class="price-label">Vehicle Hire</div>
-    <div class="price-amount">Call Us</div>
-    <div class="price-desc">Van, car and minibus hire. Short and long-term. Commercial and domestic.</div>
+    <div class="price-label">Van Hire</div>
+    <div class="price-amount">From £80<small style="font-size:1.2rem">/day</small></div>
+    <div class="price-desc">£180 weekend (Fri 17:00–Mon 09:00) · £500/week. 100-mile daily limit. £200 deposit by card.</div>
+  </div>
+</section>
+
+<!-- VEHICLE HIRE CONDITIONS -->
+<section style="padding: 0 8% 80px; background: var(--navy);">
+  <div style="background: var(--card); border: 1px solid rgba(2,132,199,0.2); padding: 40px 48px; display: grid; grid-template-columns: 1fr 1fr; gap: 48px;" class="hire-grid">
+    <div>
+      <div class="section-label">Vehicle Hire</div>
+      <h2 style="font-size:2rem;margin-bottom:16px;">Hire <span>Conditions</span></h2>
+      <p style="color:var(--grey);font-size:0.9rem;line-height:1.7;">Same conditions apply to van, car and minibus hire. All vehicles subject to availability — call ahead to confirm.</p>
+      <a href="tel:02088549254" class="btn-primary" style="margin-top:24px;display:inline-block;">📞 020 8854 9254</a>
+    </div>
+    <div>
+      <ul style="list-style:none;display:flex;flex-direction:column;gap:12px;margin-top:8px;">
+        <li style="display:flex;gap:12px;align-items:flex-start;font-size:0.9rem;color:var(--white);">
+          <span style="color:var(--blue-light);font-weight:700;flex-shrink:0;">→</span>
+          Age limit 25–70 years
+        </li>
+        <li style="display:flex;gap:12px;align-items:flex-start;font-size:0.9rem;color:var(--white);">
+          <span style="color:var(--blue-light);font-weight:700;flex-shrink:0;">→</span>
+          Full UK licence required — minor points considered (subject to hire rate increase)
+        </li>
+        <li style="display:flex;gap:12px;align-items:flex-start;font-size:0.9rem;color:var(--white);">
+          <span style="color:var(--blue-light);font-weight:700;flex-shrink:0;">→</span>
+          Minimum 2 years UK driving experience
+        </li>
+        <li style="display:flex;gap:12px;align-items:flex-start;font-size:0.9rem;color:var(--white);">
+          <span style="color:var(--blue-light);font-weight:700;flex-shrink:0;">→</span>
+          Two proofs of address (gas, telephone or electricity bill)
+        </li>
+        <li style="display:flex;gap:12px;align-items:flex-start;font-size:0.9rem;color:var(--white);">
+          <span style="color:var(--blue-light);font-weight:700;flex-shrink:0;">→</span>
+          £200 refundable deposit by card — hire fee by credit or debit card
+        </li>
+        <li style="display:flex;gap:12px;align-items:flex-start;font-size:0.9rem;color:var(--white);">
+          <span style="color:var(--blue-light);font-weight:700;flex-shrink:0;">→</span>
+          Daily rate includes 100 miles — extra charge per mile above that
+        </li>
+        <li style="display:flex;gap:12px;align-items:flex-start;font-size:0.9rem;color:var(--white);">
+          <span style="color:var(--blue-light);font-weight:700;flex-shrink:0;">→</span>
+          New-style photo licence requires an online check (£3 fee)
+        </li>
+      </ul>
+    </div>
   </div>
 </section>
 
